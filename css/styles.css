@@ -15,8 +15,8 @@ a {
 }
 
 .header {
-  padding-bottom: 24px;
-  padding-top: 20px;
+  /* padding-bottom: 24px;
+  padding-top: 20px; */
   background-color: #ffffff;
   opacity: 1;
   border-bottom: 1px solid #e7e9fc;
@@ -37,10 +37,11 @@ a {
 }
 
 .header-content {
-  padding-left: 24px 0;
+  /* padding-left: 24px 0; */
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
   width: 100%;
 }
 
@@ -73,6 +74,7 @@ a {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover,
@@ -129,10 +131,6 @@ a {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .hero-title {
@@ -163,7 +161,6 @@ a {
   height: 56px;
   border-radius: 4px;
 
-  padding: 16px 32px; /* было 48px — слишком много */
   width: 169px;
   border: none;
 }
@@ -175,12 +172,6 @@ a {
 
 .benefits-section {
   padding: 120px 0;
-
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
 }
 
 .visually-hidden {
@@ -239,10 +230,7 @@ a {
 
 .team-section {
   background-color: #f4f4fd;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+
   gap: 8px;
   padding: 120px 0;
 }
@@ -266,11 +254,6 @@ a {
 }
 
 .team-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
   padding: 32px 0px;
 }
 
